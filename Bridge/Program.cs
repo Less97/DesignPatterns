@@ -10,6 +10,10 @@ namespace Bridge
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Bridge Pattern:");
+            Console.WriteLine("Using ImplementationA: "+new Abstraction(new ImplementationA()).Operation());
+            Console.WriteLine("Using ImplementationB: " + new Abstraction(new ImplementationB()).Operation());
+            Console.ReadLine();
         }
     }
 }
