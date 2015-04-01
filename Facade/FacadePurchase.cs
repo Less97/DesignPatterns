@@ -20,7 +20,5 @@ namespace Facade
                 return;
             confirmModule.SendConfirmationEmail();
         }
-
-
     }
 }
